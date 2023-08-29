@@ -1,0 +1,39 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+.fondo{
+  background-image: url('./Assets/santorini-fondo.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.nav{
+  position: fixed;
+  left: 37%;
+
+}
+.tittle{
+  align-items: center;
+  background-color: aliceblue;
+  opacity: .8;
+  border-radius: 10px;
+  padding: 10px;
+}
+.ate{
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
+}
+.tittle2{
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
